@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="input-fields">
+          <h1 style="text-align: center;">Resume Generator</h1>
+          <input type="text" name="name" placeholder="Name" required/><br/><br/>
+          <input type="text" name="title" placeholder="Title-Eg:- Web Developer" required/><br/><br/>
+          <textarea name="objective" placeholder="Career-Objective"></textarea><br/>
+          <textarea name="contact" placeholder="Profile-Contacts"></textarea><br/>
+          <textarea name="academics" placeholder="Academic Details"></textarea><br/>
+          <textarea name="technicalskills" placeholder="Technical-Skills"></textarea><br/>
+          <textarea name="softskills" placeholder="Soft-Skills"></textarea><br/>
+          <textarea name="certifications" placeholder="Certifications"></textarea><br/>
+          <textarea name="strengths" placeholder="Strengths" ></textarea><br/>
+          <textarea name="hobbies" placeholder="Hobbies" ></textarea><br/>
+          <textarea name="interests" placeholder="Interests" ></textarea><br/>
+          <textarea name="languages" placeholder="Languags-Known" ></textarea><br/>
+          <textarea name="declaration" placeholder="Declaration" ></textarea><br/>
+    </form>
+     <!-- resume preview -->
+    <div class="output">
+   
+    </div>  
+    <!-- button for toggle   -->
+   <div class="btn">
+        <button onclick="toggle()">Preview or edit</button>
+   </div>
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
